@@ -1,3 +1,5 @@
+**This fork allows to easily compile the Jazz OpenBook in other tonalities (e.g. Bflat, Eflat). Simply edit the beginning of file (replace "c" by "bes" or "ees") before compiling.**
+
 OpenBook
 ========
 

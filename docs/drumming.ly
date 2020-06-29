@@ -2,6 +2,7 @@
 
 
 
+
 % lets emit the definitions
 
 % end verbatim - this comment is a hack to prevent texinfo.tex
@@ -10,7 +11,7 @@
 % this version tag will keep me compiling only on this version of lilypond.
 %=====================================================================
 
-\version "2.20.0"
+\version "2.18.2"
 
 % lets define a variable to hold the formatted build date (man 3 strftime):
 %date=#(strftime "%T %d-%m-%Y" (localtime (current-time)))
@@ -215,7 +216,7 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \fontsize #11 \bold "OpenBook" }
+				\fill-line { \fontsize #11 \bold "OpenBook (c)"}
 				\null
 				\null
 				\fill-line { \larger \larger \bold "An open source Jazz real book" }
@@ -257,13 +258,13 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 171" }
-				\fill-line { \small "Git describe: 171-151-g239b55f" }
-				\fill-line { \small "Git commits: 1642" }
-				\fill-line { \small "Build date: 21:27:20 25-05-2020" }
-				\fill-line { \small "Build user: mark" }
-				\fill-line { \small "Build host: newton" }
-				\fill-line { \small "Build kernel: Linux 5.4.0-31-lowlatency" }
-				\fill-line { \small "Lilypond version: 2.20.0" }
+				\fill-line { \small "Git describe: 171-155-g15512201" }
+				\fill-line { \small "Git commits: 1646" }
+				\fill-line { \small "Build date: 10:32:19 29-06-2020" }
+				\fill-line { \small "Build user: scherrer" }
+				\fill-line { \small "Build host: togo" }
+				\fill-line { \small "Build kernel: Linux 4.15.0-108-generic" }
+				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 1" }
 				\null
 				\null
